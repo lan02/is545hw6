@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="main.js" type="module"></script>
+  </head>
+  <body>
+    <header>
+      <h1>IndexedDB Demo</h1>
+      <p>
+        Code from
+        <a href="https://blog.teamtreehouse.com/create-your-own-to-do-app-with-html5-and-indexeddb">
+          Create Your Own To-Do App with HTML5 and IndexedDB
+        </a>
+        with changes for ES6 module and syntax.
+      </p>
+    </header>
+
+    <div id="page-wrapper">
+      <h1>Todo List</h1>
+      <!-- Form for new Todo Items -->
+      <form id="new-todo-form" method="POST" action="#">
+        <input
+          type="text"
+          name="new-todo"
+          id="new-todo"
+          placeholder="Enter a todo item..."
+          required
+        />
+      </form>
+
+      <!-- Todo Item List -->
+      <ul id="todo-items"></ul>
+    </div>
+  </body>
+</html>
